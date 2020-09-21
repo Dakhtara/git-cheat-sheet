@@ -1,0 +1,14 @@
+[
+    {
+        "command": "git branch",
+        "description": "Liste toutes les branches dans votre dépôt. Ajouter un argument <branch> pour créer une branche avec le nom <branch>."
+    },
+    {
+        "command": "git checkout -b <branch>",
+        "description": "Crée et déplace le dépôt local vers la <branche>. Sans l'argument -b, déplace le dépôt local vers une branche existante."
+    },
+    {
+        "command": "git merge <branch>",
+        "description": "Merge <branch> dans la branche courante."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "command": "git log -<limit>",
+        "description": "Limite le nombre de commit par <limit>."
+    },
+    {
+        "command": "git log --oneline",
+        "description": "Log chaque commit sur une seule ligne."
+    },
+    {
+        "command": "git log -p",
+        "description": "Affiche le diff complet de chaque commit."
+    },
+    {
+        "command": "git log --stat",
+        "description": "Inclus les fichiers qui ont été modifiés avec le nombre relatifs de lignes ajouté ou supprimé."
+    },
+    {
+        "command": "git log --author=\"<pattern>\"",
+        "description": "Rechercher les commits par un auteur spécifique"
+    },
+    {
+        "command": "git log --grep=\"<pattern>\"",
+        "description": "Recherche des commits avec un message de commit qui match <pattern>."
+    },
+    {
+        "command": "git log <since>..<until>",
+        "description": "Affiche les commits qui sont entre <since> et <until>. Les arguments peuvent être un ID de commit, un nom de branche, HEAD ou tout type de référence a une révision."
+    },
+    {
+        "command": "git log -- <file>",
+        "description": "Afficher uniquement les commits qui ont le fichier spécifié."
+    },
+    {
+        "command": "git log --graph --decorate",
+        "description": "--graph déssine un graphique textuel des commits sur le côté gauche des messages de commite. --decorate ajoute le noms des branches ou tags des commits affichés."
+    }
+]

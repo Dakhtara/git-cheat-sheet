@@ -1,0 +1,10 @@
+[
+    {
+        "command": "git diff HEAD",
+        "description": "Affiche les différences entre l'espace de travail et le dernier commit."
+    },
+    {
+        "command": "git diff --cached",
+        "description": "Affiche les différences entre les changements staged et le dernier commit"
+    }
+]

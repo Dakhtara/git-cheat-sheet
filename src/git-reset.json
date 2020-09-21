@@ -1,0 +1,18 @@
+[
+    {
+        "command": "git reset",
+        "description": "Reset la zone de stage pour revenir au commit le plus récent, mais laisse l'espace de travail unchangé."
+    },
+    {
+        "command": "git reset --hard",
+        "description": "Reset la zone de stage pour revenir au commit le plus récent et surcharge les modifications de l'espace de travail."
+    },
+    {
+        "command": "git reset <commit>",
+        "description": "Déplace la branche courante vers le <commit>, reset la zone de stage mais laisse l'espace de travail inchangé."
+    },
+    {
+        "command": "git reset --hard <commit>",
+        "description": "Pareil que la commande précédente, mais reset aussi l'espace de travail. Supprime les changement non commit et tous les commit après <commit>."
+    }
+]

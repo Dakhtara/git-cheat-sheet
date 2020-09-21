@@ -1,0 +1,14 @@
+[
+    {
+        "command": "git push <remote> --force",
+        "description": "Force git push même si cela ne se traduit par un non-fast-forward merge. N'utiliser pas --force si vous n'êtes pas sur de ce que vous faites."
+    },
+    {
+        "command": "git push <remote> --all",
+        "description": "Pousse toutes les branches locales vers le dépôt distant spécifié."
+    },
+    {
+        "command": "git push <remote> --tags",
+        "description": "Les tags ne sont pas automatiquement poussé quand vous poussez une branche ou utiliser le flag --all. Le flag --tags envois tous vos tags locaux vers le dépôt distant spécifié."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "command": "git config --global user.name <name>",
+        "description": "Défini le nom d'auteur utilisé pour tous les commits de l'utilisateur courant."
+    },
+    {
+        "command": "git config --global user.email <email>",
+        "description": "Défini l'adresse e-mail utilisé pour tous les commit de l'utilisateur courant."
+    },
+    {
+        "command": "git config --global alias. <alias-name> <git-command>",
+        "description": "Crée un raccourcis pour une commande Git. ex alias.glog \"log --graph --oneline\" mettra un alias \"git glog\" qui sera équivalent à \"git log --graph --oneline\"."
+    },
+    {
+        "command": "git config --systeme core.editor <editor>",
+        "description": "Défini l'éditeur de texte utilisé par les commandes pour tous les utilisateurs de la machine. <editor> argument doit être la commande éxecuté au lancement de l'éditeur voulus (ex vi, vim)"
+    },
+    {
+        "command": "git config --global --edit",
+        "description": "Ouvre le fichier de configuration global dans un éditeur de texte pour l'édition manuelle."
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "command": "git init <directory>",
+        "description": "Crée un dépôt Git vide dans le dossier spécifié. Si aucun argument n'est spécifié alors le dossier courant sera le dépôt Git."
+    }, 
+    {
+        "command": "git clone <repo>",
+        "description": "Clone un dépôt localisé à <repo> sur la machine locale. Le dépôt original peut être localisé sur le systeme de fichier local ou sur un serveur distant via HTTP(S) ou SSH."
+    },
+    {
+        "command": "git config user.name <name>",
+        "description": "Définit un nom d'auteur qui sera utilisé pour tous les commit du dépôt courant. Le flag --global permet de définir ce nom pour l'utilisateur courant de la machine locale."
+    },
+    {
+        "command": "git add <directory>",
+        "description": "Ajoute tous les changements en cours du <directory> pour le prochain commit. Remplacer le <directory> avec un <file> pour changer un fichier spécific."
+    },
+    {
+        "command": "git commit -m \"<message>\"",
+        "description": "Commit les fichiers mis en stage, au lieu d'utiliser un éditeur de texte, utilisez <message>> comme message du commit."
+    },
+    {
+        "command": "git status",
+        "description": "Listes les fichiers qui sont stage, unstaged et untracked."
+    },
+    {
+        "command": "git log",
+        "description": "Affiche tous l'historique des commit avec un format par défaut. Pour personnaliser l'affichage, regardez les options additionnels."
+    },
+    {
+        "command": "git diff",
+        "description": "Affiche les changements unstaged entre votre index et l'espace de travail."
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "command": "git commit --amend",
+        "description": "Remplace le dernier commit avec les changements staged en cours et le dernier commit ensemble. Utiliser sans modification a ajouter pour changer le message du dernier commit."
+    },
+    {
+        "command": "git rebase <base>",
+        "description": "Rebase la branche courante sur <base>, <base> peut être un ID de commit, un nom de branche, un tage ou une référence relative au HEAD."
+    },
+    {
+        "command": "git reflog",
+        "description": "Affiche un log des changements du dépôt local HEAD. Ajouter --relative=date pour afficher les infos de date ou --al pour afficher toutes les références."
+    }
+]

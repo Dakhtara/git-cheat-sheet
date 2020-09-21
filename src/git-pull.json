@@ -1,0 +1,6 @@
+[
+    {
+        "command": "git pull --rebase <remote>",
+        "description": "Récupère une copie de la branche depuis le dépôt distant et rebases celle-ci dans la branche locale. Utiliser git rebase au lieu de merge pour intégrer les branches."
+    }
+]

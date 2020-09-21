@@ -1,0 +1,14 @@
+[
+    {
+        "command": "git revert <commit>",
+        "description": "Crée un commit qui annule tous les changements effectué dans le <commit>, puis ajoute les modifications dans la branche courante."
+    },
+    {
+        "command": "git reset <file>",
+        "description": "Retire le <file> depuis la zone de staging mais laisse l'espace de travail inchangé. Cela retire un fichier sans supprimer d'autres changements."
+    },
+    {
+        "command": "git clean -n",
+        "description": "Affiche les fichiers qui vont être retiré de l'espace de travail. Utiliser le flag -f au lieu du -n pour executer le nettoyage."
+    }
+]

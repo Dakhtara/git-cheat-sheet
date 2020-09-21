@@ -1,0 +1,18 @@
+[
+    {
+        "command": "git remote add <name> <url>",
+        "description": "Créer une nouvelle connexion vers un dépôt distant. Une fois ajouté, vous pouvez utiliiser <name> comme un raccourci vers <url>"
+    },
+    {
+        "command": "git fetch <remote> <branch>",
+        "description": "Récupère une <branch> depuis le dépôt. Retirer l'argument <branch> pour récupérer toutes les références."
+    },
+    {
+        "command": "git pull <remote>",
+        "description": "Récupère les modifications de la branche courante et merge immédiatement dans le dépôt local."
+    },
+    {
+        "command": "git push <remote> <branch>",
+        "description": "Pousse la branch vers <remote>, avec tous les commits et objets nécessaires. Crée la branche sur le serveur distant si elle n'existe pas."
+    }
+]
