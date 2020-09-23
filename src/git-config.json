@@ -12,7 +12,7 @@
         "description": "Crée un raccourcis pour une commande Git. ex alias.glog \"log --graph --oneline\" mettra un alias \"git glog\" qui sera équivalent à \"git log --graph --oneline\"."
     },
     {
-        "command": "git config --systeme core.editor <editor>",
+        "command": "git config --system core.editor <editor>",
         "description": "Défini l'éditeur de texte utilisé par les commandes pour tous les utilisateurs de la machine. <editor> argument doit être la commande éxecuté au lancement de l'éditeur voulus (ex vi, vim)"
     },
     {

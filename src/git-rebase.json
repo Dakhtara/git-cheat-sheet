@@ -1,6 +1,6 @@
 [
     {
         "command": "git rebase -i <base>",
-        "description": "Rebace interactivement la branche courante sur <base>. Lance un éditeur pour indiquer comment chaque commit sera transférer dans la nouvelle base."
+        "description": "Rebase interactivement la branche courante sur <base>. Lance un éditeur pour indiquer comment chaque commit sera transférer dans la nouvelle base."
     }
 ]
